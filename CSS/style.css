@@ -1,0 +1,28 @@
+header div{
+display: flex;
+ height: 50px;
+ position: relative;
+ background-color: rgb(112, 65, 24)
+ 
+}
+header div h1{
+    font-size: small;
+}
+header div h3  {
+   font-size:xx-small ;
+ 
+}
+header section{
+    padding-left: 10px;
+}
+header nav li{
+    display: inline-block;
+
+}
+header nav ul{
+    position: absolute;
+    right: 0%;
+}
+#lin-pad{
+    padding-left: 10px;
+}
