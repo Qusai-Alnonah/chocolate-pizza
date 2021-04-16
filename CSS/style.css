@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 html {
     font-family: 'Playfair Display', serif;
@@ -8,11 +9,16 @@ header div{
 display: flex;
  height: 50px;
  position: relative;
- background-color: rgb(112, 65, 24)
+ background-color:snow;
  
 }
+/* .contenar{
+size: 50%;
+} */
 header div h1{
-    font-size: xx-small;
+    font-family: 'Lobster', cursive;
+   padding-top:0% ;
+    font-size:small;
 }
 header div h3  {
    font-size:xx-small ;
@@ -38,6 +44,7 @@ footer p {
 }
 
 #smallFooterImg{
+    float: left;
 
 }
 
@@ -83,7 +90,7 @@ footer {
 }
 
 #vanPicture {
-    
+    float: left;
 }
 #shareButton {
     position: absolute;
@@ -123,17 +130,17 @@ footer section h2{
 footer section p{
     font-size: medium;
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: 40%;
     
 }
 
 fieldset {
     border: none;
-    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+    box-shadow: 4px 3px 8px 1px #969696;
     background-image: url("../image/lab-assets/list-bg.png");
     background-size: contain;
-    background-size: ;
+    
 }
 
 
