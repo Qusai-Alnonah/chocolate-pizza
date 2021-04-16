@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+header div{
+display: flex;
+ height: 50px;
+ position: relative;
+ background-color:snow;
+ 
+}
+/* .contenar{
+size: 50%;
+} */
+header div h1{
+    font-family: 'Lobster', cursive;
+   padding-top:0% ;
+    font-size:small;
+}
+header div h3  {
+   font-size:xx-small ;
+ 
+}
+header section{
+    padding-left: 10px;
+}
+header nav li{
+    display: inline-block;
+
+}
+header nav ul{
+    position: absolute;
+    right: 0%;
+}
+#lin-pad{
+    padding-left: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+#smallFooterImg{
+    float: left;
+
+}
+
+#flexDiv{
+    display: flex;
+    justify-content: center;    
+}
+
+header {
+    width: 60%;
+    margin: 10px 20% 10px 20%;
+}
+
+main {
+    width: 60%;
+    margin: 10px 20% 10px 20%;
+}
+
+footer {
+    width: 60%;
+    height: 100px;
+    margin: 10px 20% 10px 20%;
+    position: relative;
+}
+
+#mainImage {
+    width: 100%;
+}
+
+#paragraphSection {
+    width: 100%;
+}
+
+#paragraphSection p {
+    font-family: sans-serif;
+    
+}
+
+#lastSection{
+    display: flex;
+    align-content: stretch;
+    position: relative;
+}
+
+#vanPicture {
+    float: left;
+}
+#shareButton {
+    position: absolute;
+    right: 0;
+    top:50%;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #40320e;
+	background-color:#b87732;
+	border-radius:1px;
+	border:1px solid #2b3d0f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:12px 19px;
+	text-decoration:none;
+    position: absolute;
+    right: 0;
+    top:50%;
+}
+.myButton:hover {
+	background-color:#553410;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+footer section h2{
+    font-size: large;
+    
+}
+footer section p{
+    font-size: medium;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    
+}
+
+fieldset {
+    border: none;
+    box-shadow: 4px 3px 8px 1px #969696;
+    background-image: url("../image/lab-assets/list-bg.png");
+    background-size: contain;
+    
+}
+
+
+fieldset div {
+    width: 40%;
+    padding: 10px;
+    display:inline-block;
+}
